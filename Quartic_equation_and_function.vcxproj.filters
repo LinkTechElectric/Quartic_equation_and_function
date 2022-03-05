@@ -15,28 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main_display_service.cpp">
+    <ClInclude Include="Entrance%28cmd%29.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Quartic_counting_port.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Display_quartic_counting_data.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Magnitude_counting_port.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Display_magnitude_counting_data.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="basic_defination.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HeadFile_of_quartic_Calcular.h">
+    <ClCompile Include="Display_service.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Signpost%28cmd%29.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="HeadFile_of_Magnitude_calcular.h">
+    </ClCompile>
+    <ClCompile Include="quartic_calculator.h">
       <Filter>头文件</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

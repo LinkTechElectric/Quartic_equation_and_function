@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic_defination.h" />
+    <ClInclude Include="Entrance%28cmd%29.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Display_service.cpp" />
+    <ClCompile Include="quartic_calculator.h" />
+    <ClCompile Include="Signpost%28cmd%29.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,17 +147,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Display_magnitude_counting_data.cpp" />
-    <ClCompile Include="Display_quartic_counting_data.cpp" />
-    <ClCompile Include="Magnitude_counting_port.cpp" />
-    <ClCompile Include="main_display_service.cpp" />
-    <ClCompile Include="Quartic_counting_port.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="HeadFile_of_Magnitude_calcular.h" />
-    <ClInclude Include="HeadFile_of_quartic_Calcular.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
